@@ -1,0 +1,55 @@
+body{
+    display: flex;
+}
+
+.main_container{
+    display: grid;
+    grid-template-rows: 10% 15% auto 10%;
+    width: 85%;
+    height: auto;
+}
+
+.side_container{
+    display: grid;
+    grid-template-rows: 10% auto;
+    width: 15%;
+}
+
+nav{
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: 2px solid black;
+    gap: 10px;
+    background-color: black;
+}
+
+header{
+    border: 2px solid black;
+    text-align: center;
+}
+
+img{
+    height: 100%;
+    width: auto;
+    gap: 10px;
+    border: 2px solid black;
+}
+
+aside{
+    background-image: url(./img/dragon_side.png);
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer{
+    border: 2px solid black;
+    text-align: center;
+}
