@@ -7,18 +7,32 @@ body{
     grid-template-rows: 10% 15% auto 10%;
     width: 85%;
     height: auto;
+    gap: 10px;
 }
 
 .side_container{
     display: grid;
     grid-template-rows: 10% auto;
     width: 15%;
+    height: 1300px;
+}
+
+#logo{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 12%;
 }
 
 nav{
     border: 2px solid black;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+a{
+    color: white;
 }
 
 main{
@@ -26,25 +40,29 @@ main{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     border: 2px solid black;
+    border-radius: 5px;
     gap: 10px;
     background-color: black;
 }
 
 header{
     border: 2px solid black;
+    border-radius: 5px;
     text-align: center;
+    color: white;
+    background-color: black;
 }
 
 img{
     height: 100%;
     width: auto;
     gap: 10px;
-    border: 2px solid black;
 }
 
 aside{
     background-image: url(./img/dragon_side.png);
     border: 2px solid black;
+    border-radius: 5px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -52,4 +70,7 @@ aside{
 footer{
     border: 2px solid black;
     text-align: center;
+    border-radius: 5px;
+    padding-top: 30px;
+    background-color: black;
 }
